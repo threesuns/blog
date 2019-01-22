@@ -1,0 +1,117 @@
+/*!
+ * Start Bootstrap - Clean Blog v5.0.2 (https://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
+ */
+// @import "bootstrap";
+// @import "bootstrap-sprockets";
+
+$gray-medium-light: #eaeaea;
+$gray-light: rgb(196, 195, 195);
+
+body {
+  padding-top: 20px;
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Lora', 'Times New Roman', serif;
+  background-image: url("bgimage.jpg");
+  background-size: cover;
+  border: 5px solid transparent;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin: 85px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+/* header */
+header{
+  color: #fff;
+  font-size: 1.5em;
+  a {
+    float: left;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    &:hover {
+      color: rgb(226, 225, 225);
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      font-size: 0.8em;
+      list-style: none;
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 50px;
+  color: #fff;
+  a {
+    color: #fff;
+    &:hover {
+      color: rgb(226, 225, 225);
+      text-decoration: none;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      list-style: none;
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "sample_app",
+  "private": true,
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}
