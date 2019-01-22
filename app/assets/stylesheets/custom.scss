@@ -58,8 +58,9 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 0.9em;
   line-height: 1.7em;
+  color: #fff;
 }
 
 
@@ -120,9 +121,9 @@ footer {
 
 .microposts {
   list-style: none;
-  padding: 0;
+  padding: 50;
   li {
-    padding: 10px 0;
+    padding: 20px 0;
     border-top: 1px solid #e8e8e8;
   }
   .user {
@@ -130,11 +131,12 @@ footer {
     padding-top: 0;
   }
   .content {
+    color: rgba(233, 233, 233, 0.795);
     display: block;
     margin-left: 60px;
     img {
       display: block;
-      padding: 5px 0;
+      padding: 5px 5px;
     }
   }
   .timestamp {
@@ -151,8 +153,10 @@ footer {
 
 aside {
   textarea {
-    height: 100px;
-    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.795);
+    height: 500px;
+    width: 500px;
+    margin-bottom: 10px;
   }
 }
 
