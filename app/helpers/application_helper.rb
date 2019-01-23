@@ -22,6 +22,6 @@ module ApplicationHelper
     else 
         timestamp.strftime('%d %b %Y')
     end
-end
+  end
 end
 
