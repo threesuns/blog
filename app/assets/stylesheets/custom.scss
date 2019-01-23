@@ -7,7 +7,7 @@
 @import "bootstrap-sprockets";
 
 $gray-medium-light: #eaeaea;
-$gray-light: rgb(196, 195, 195);
+$gray-light: rgb(236, 236, 236);
 
 body {
   padding-top: 20px;
@@ -140,6 +140,7 @@ footer {
     }
   }
   .timestamp {
+    font-size: 0.8em;
     color: $gray-light;
     display: block;
     margin-left: 60px;
@@ -165,4 +166,25 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: #fff2d7;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(242, 247, 247);
+  text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 255, 255);
 }
