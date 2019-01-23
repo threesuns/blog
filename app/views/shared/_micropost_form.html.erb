@@ -1,12 +1,15 @@
 <%= form_for(@micropost) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
-    <%= f.text_area :content, placeholder: "在这里写下你的新博文，" %>
+    <%= f.text_area :content, placeholder: "在这里写下你的新博文..." %>
   </div>
-  <%= f.submit "上传", class: "btn btn-primary btn-lg" %>
+  
   <span class="picture">
     <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
   </span>
+  <p>
+  </p>
+  <%= f.submit "发布", class: "btn btn-primary btn-lg" %>
 <% end %>
 
 <script type="text/javascript">
